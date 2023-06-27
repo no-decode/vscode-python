@@ -11,7 +11,8 @@ def timethis(func):
     return wrapper
 @timethis
 def countdown(n):
-    while(n>0):
+    while (n>0):
         n-=1
+countdown(1000000)
+countdown(5000000)
 
-countdown(100000000)
