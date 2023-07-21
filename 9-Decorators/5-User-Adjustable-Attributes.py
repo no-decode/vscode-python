@@ -1,6 +1,7 @@
 from functools import wraps, partial
 import logging
 
+
 # Utility decorator to attach a function as an attribute of obj
 def attach_wrapper(obj, func=None):
  if func is None:
